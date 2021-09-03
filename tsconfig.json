@@ -1,0 +1,16 @@
+// {
+//   "compilerOptions": {
+//     "target": "es5",
+//     "module": "commonjs",
+//     "lib": ["dom"],
+//     "jsx": "react",
+//     "noEmit": true, //表明ts只做類型檢查，不進行編譯輸出
+//     "sourceMap": true,
+//     /* Strict Type-Checking Options */
+//     "strict": true,
+//     "noImplicitAny": true,
+//     "strictNullChecks": true,
+//     "esModuleInterop": true
+//   },
+//   "include": ["src"]
+// }

@@ -1,0 +1,16 @@
+// babel.config.json
+{
+    "presets": [
+        "@babel/preset-typescript",
+        [   
+            "@babel/preset-env",
+            //其中useBuiltIns": "usage"代表自動判斷每個文件是否引入ployfill，corejs: 3是指定版本。
+            {
+                "useBuiltIns": "usage", 
+                "corejs": 3
+            }
+        ],
+        "@babel/preset-react"
+    ],
+    "plugins": []
+}
